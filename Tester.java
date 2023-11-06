@@ -1,5 +1,5 @@
 /*
- * @author 3156908
+ * @author XXXXX08
  *
  * @version 1.0 06/21/2020
  *
@@ -9,13 +9,13 @@
  *
  * Lecturer's Name: C. Charters
  */
-package main;
+package passwordencryptor;
 
 import java.util.Scanner;
 
 /**
  *
- * @author 3156908
+ * @author XXXXX08
  */
 public class Tester {
 
@@ -87,7 +87,7 @@ public class Tester {
         System.out.println("Type a word you would like to encrypt."); //Asks user to type in a chosen word to encrypt.
         chosenWord = key.nextLine();
 
-        PasswordEncryption yes = new PasswordEncryption(chosenWord, true); // Encrypts the user's chosen word.
+        Encryption yes = new Encryption(chosenWord, true); // Encrypts the user's chosen word.
         yes.encryptOrig();
 
         System.out.println("Guess the encrypted word!"); //Asks user to make a guess on the encryted word.
@@ -117,7 +117,7 @@ public class Tester {
         System.out.println("What word do you wish to decrypt?"); //Asks user what word they wish to decrypt.
         chosenWord = typing.nextLine();
 
-        PasswordEncryption yes = new PasswordEncryption(chosenWord, false); //Decrypts the user's chosen word.
+        Encryption yes = new Encryption(chosenWord, false); //Decrypts the user's chosen word.
         yes.decryptEncrypt();
 
         System.out.println("Guess the decrypted word!"); //Asks the user to guess the dycrypted word.
