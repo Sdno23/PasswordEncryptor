@@ -1,5 +1,5 @@
 /*
- * @author 3156908
+ * @author XXXXX08
  *
  * @version 1.0 06/21/2020
  *
@@ -9,11 +9,11 @@
  *
  * Lecturer's Name: C. Charters
  */
-package main;
+package passwordencryptor;
 
 /**
  *
- * @author 3159608
+ * @author XXXXX08
  */
 public class Encryption {
 
